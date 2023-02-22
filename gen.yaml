@@ -1,0 +1,5 @@
+java:
+    version: 0.0.0
+    packagename: fabra.io.javasdk
+    projectname: fabra-java-sdk
+sdkclassname: Fabra
