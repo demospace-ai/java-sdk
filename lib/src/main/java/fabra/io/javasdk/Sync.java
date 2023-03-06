@@ -9,6 +9,8 @@ import java.net.http.HttpResponse;
 import java.nio.charset.StandardCharsets;
 
 public class Sync {
+	
+	
 	private HTTPClient _defaultClient;
 	private HTTPClient _securityClient;
 	private String _serverUrl;
@@ -24,6 +26,7 @@ public class Sync {
 		this._sdkVersion = sdkVersion;
 		this._genVersion = genVersion;
 	}
+	
     
     /**
      * createSync - Create a new sync
@@ -53,6 +56,7 @@ public class Sync {
         }};
         res.statusCode = httpRes.statusCode();
         res.contentType = contentType;
+        res.rawResponse = httpRes;
         
         if (httpRes.statusCode() == 200) {
             if (fabra.io.javasdk.utils.Utils.matchContentType(contentType, "application/json")) {
@@ -68,6 +72,7 @@ public class Sync {
 
         return res;
     }
+	
     
     /**
      * getSyncs - Get all syncs
@@ -92,6 +97,7 @@ public class Sync {
         }};
         res.statusCode = httpRes.statusCode();
         res.contentType = contentType;
+        res.rawResponse = httpRes;
         
         if (httpRes.statusCode() == 200) {
             if (fabra.io.javasdk.utils.Utils.matchContentType(contentType, "application/json")) {

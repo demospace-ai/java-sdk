@@ -1,9 +1,14 @@
+configVersion: 1.0.0
 management:
-    openapi-checksum: 5bdbad96d6d347d81789110337cf504a
-    openapi-version: 0.1.0
-    speakeasy-version: 1.5.4
+  docChecksum: 8b6e699ac2ed042ca62a8341762bfe53
+  docVersion: 0.1.0
+  speakeasyVersion: 1.8.5
+generation:
+  telemetryEnabled: false
+  sdkClassName: Fabra
+  sdkFlattening: false
 java:
-    version: 0.2.2
-    packagename: fabra.io.javasdk
-    projectname: fabra-java-sdk
-sdkclassname: Fabra
+  version: 0.3.0
+  artifactID: javasdk
+  groupID: fabra.io
+  projectName: fabra-java-sdk

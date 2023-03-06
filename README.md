@@ -12,7 +12,7 @@
 ### Gradle
 
 ```groovy
-implementation 'fabra.io.javasdk:fabra-java-sdk:0.2.2'
+implementation 'fabra.io.javasdk:fabra-java-sdk:0.3.0'
 ```
 <!-- End SDK Installation -->
 
@@ -70,6 +70,10 @@ public class Application {
 
 * `createDestination` - Create a new destination
 * `getDestinations` - Get all destinations
+
+### linkToken
+
+* `createLinkToken` - Create a new link token
 
 ### object
 

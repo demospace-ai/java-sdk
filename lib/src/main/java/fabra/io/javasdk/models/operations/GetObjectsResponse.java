@@ -1,6 +1,6 @@
 package fabra.io.javasdk.models.operations;
 
-
+import java.net.http.HttpResponse;
 
 public class GetObjectsResponse {
     public String contentType;
@@ -12,6 +12,12 @@ public class GetObjectsResponse {
     public Integer statusCode;
     public GetObjectsResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
+        return this;
+    }
+    
+    public HttpResponse<byte[]> rawResponse;
+    public GetObjectsResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
+        this.rawResponse = rawResponse;
         return this;
     }
     
