@@ -9,6 +9,9 @@ import java.nio.charset.StandardCharsets;
 import org.apache.http.NameValuePair;
 
 public class Connection {
+	
+	
+	
 	private HTTPClient _defaultClient;
 	private HTTPClient _securityClient;
 	private String _serverUrl;
@@ -24,6 +27,7 @@ public class Connection {
 		this._sdkVersion = sdkVersion;
 		this._genVersion = genVersion;
 	}
+	
     
     /**
      * getNamespaces - Get all namespaces
@@ -54,6 +58,7 @@ public class Connection {
         }};
         res.statusCode = httpRes.statusCode();
         res.contentType = contentType;
+        res.rawResponse = httpRes;
         
         if (httpRes.statusCode() == 200) {
             if (fabra.io.javasdk.utils.Utils.matchContentType(contentType, "application/json")) {
@@ -69,6 +74,7 @@ public class Connection {
 
         return res;
     }
+	
     
     /**
      * getSchema - Get schema for table
@@ -99,6 +105,7 @@ public class Connection {
         }};
         res.statusCode = httpRes.statusCode();
         res.contentType = contentType;
+        res.rawResponse = httpRes;
         
         if (httpRes.statusCode() == 200) {
             if (fabra.io.javasdk.utils.Utils.matchContentType(contentType, "application/json")) {
@@ -114,6 +121,7 @@ public class Connection {
 
         return res;
     }
+	
     
     /**
      * getTables - Get all tables
@@ -144,6 +152,7 @@ public class Connection {
         }};
         res.statusCode = httpRes.statusCode();
         res.contentType = contentType;
+        res.rawResponse = httpRes;
         
         if (httpRes.statusCode() == 200) {
             if (fabra.io.javasdk.utils.Utils.matchContentType(contentType, "application/json")) {

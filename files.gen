@@ -1,5 +1,6 @@
 lib/src/main/java/fabra/io/javasdk/Connection.java
 lib/src/main/java/fabra/io/javasdk/Destination.java
+lib/src/main/java/fabra/io/javasdk/LinkToken.java
 lib/src/main/java/fabra/io/javasdk/Object.java
 lib/src/main/java/fabra/io/javasdk/Source.java
 lib/src/main/java/fabra/io/javasdk/Sync.java
@@ -51,6 +52,8 @@ lib/src/main/java/fabra/io/javasdk/models/operations/CreateDestination200Applica
 lib/src/main/java/fabra/io/javasdk/models/operations/CreateDestinationResponse.java
 lib/src/main/java/fabra/io/javasdk/models/operations/GetDestinations200ApplicationJSON.java
 lib/src/main/java/fabra/io/javasdk/models/operations/GetDestinationsResponse.java
+lib/src/main/java/fabra/io/javasdk/models/operations/CreateLinkTokenRequest.java
+lib/src/main/java/fabra/io/javasdk/models/operations/CreateLinkTokenResponse.java
 lib/src/main/java/fabra/io/javasdk/models/operations/CreateObjectRequest.java
 lib/src/main/java/fabra/io/javasdk/models/operations/CreateObject200ApplicationJSON.java
 lib/src/main/java/fabra/io/javasdk/models/operations/CreateObjectResponse.java
@@ -76,6 +79,8 @@ lib/src/main/java/fabra/io/javasdk/models/shared/SnowflakeConfig.java
 lib/src/main/java/fabra/io/javasdk/models/shared/RedshiftConfig.java
 lib/src/main/java/fabra/io/javasdk/models/shared/MongoDbConfig.java
 lib/src/main/java/fabra/io/javasdk/models/shared/BigQueryConfig.java
+lib/src/main/java/fabra/io/javasdk/models/shared/CreateLinkTokenResponse.java
+lib/src/main/java/fabra/io/javasdk/models/shared/CreateLinkTokenRequest.java
 lib/src/main/java/fabra/io/javasdk/models/shared/Object.java
 lib/src/main/java/fabra/io/javasdk/models/shared/ObjectField.java
 lib/src/main/java/fabra/io/javasdk/models/shared/ObjectInput.java

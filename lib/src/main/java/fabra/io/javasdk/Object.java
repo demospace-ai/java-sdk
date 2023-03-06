@@ -9,6 +9,8 @@ import java.net.http.HttpResponse;
 import java.nio.charset.StandardCharsets;
 
 public class Object {
+	
+	
 	private HTTPClient _defaultClient;
 	private HTTPClient _securityClient;
 	private String _serverUrl;
@@ -24,6 +26,7 @@ public class Object {
 		this._sdkVersion = sdkVersion;
 		this._genVersion = genVersion;
 	}
+	
     
     /**
      * createObject - Create a new object
@@ -53,6 +56,7 @@ public class Object {
         }};
         res.statusCode = httpRes.statusCode();
         res.contentType = contentType;
+        res.rawResponse = httpRes;
         
         if (httpRes.statusCode() == 200) {
             if (fabra.io.javasdk.utils.Utils.matchContentType(contentType, "application/json")) {
@@ -68,6 +72,7 @@ public class Object {
 
         return res;
     }
+	
     
     /**
      * getObjects - Get all objects
@@ -92,6 +97,7 @@ public class Object {
         }};
         res.statusCode = httpRes.statusCode();
         res.contentType = contentType;
+        res.rawResponse = httpRes;
         
         if (httpRes.statusCode() == 200) {
             if (fabra.io.javasdk.utils.Utils.matchContentType(contentType, "application/json")) {

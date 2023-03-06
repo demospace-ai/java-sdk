@@ -11,6 +11,7 @@ public class Fabra {
   	
   	public Connection connection;
   	public Destination destination;
+  	public LinkToken linkToken;
   	public Object object;
   	public Source source;
   	public Sync sync;	
@@ -20,8 +21,8 @@ public class Fabra {
 	private fabra.io.javasdk.models.shared.Security _security;
 	private String _serverUrl;
 	private String _language = "java";
-	private String _sdkVersion = "0.2.2";
-	private String _genVersion = "1.5.4";
+	private String _sdkVersion = "0.3.0";
+	private String _genVersion = "1.8.5";
 
 	public static class Builder {
 		private HTTPClient client;
@@ -79,7 +80,7 @@ public class Fabra {
 		}
 
 		if (serverUrl != null && !serverUrl.isBlank()) {
-			this._serverUrl = fabra.io.javasdk.utils.Utils.replaceParameters(serverUrl, params);
+			this._serverUrl = fabra.io.javasdk.utils.Utils.templateUrl(serverUrl, params);
 		}
 		
 		if (this._serverUrl == null) {
@@ -96,6 +97,15 @@ public class Fabra {
 		);
 		
 		this.destination = new Destination(
+			this._defaultClient,
+			this._securityClient,
+			this._serverUrl,
+			this._language,
+			this._sdkVersion,
+			this._genVersion
+		);
+		
+		this.linkToken = new LinkToken(
 			this._defaultClient,
 			this._securityClient,
 			this._serverUrl,

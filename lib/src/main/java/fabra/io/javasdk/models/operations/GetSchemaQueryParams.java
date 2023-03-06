@@ -17,7 +17,7 @@ public class GetSchemaQueryParams {
         return this;
     }
     
-    @SpeakeasyMetadata("queryParam:style=form,explode=true,name=table_name")
+    @SpeakeasyMetadata("queryParam:style=form,explode=true,name=tableName")
     public String tableName;
     public GetSchemaQueryParams withTableName(String tableName) {
         this.tableName = tableName;
