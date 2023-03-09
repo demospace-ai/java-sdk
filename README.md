@@ -12,7 +12,7 @@
 ### Gradle
 
 ```groovy
-implementation 'fabra.io.javasdk:fabra-java-sdk:0.3.1'
+implementation 'fabra.io.javasdk:fabra-java-sdk:0.3.2'
 ```
 <!-- End SDK Installation -->
 
@@ -23,6 +23,9 @@ package hello.world;
 
 import fabra.io.javasdk.Fabra;
 import fabra.io.javasdk.models.shared.Security;
+import fabra.io.javasdk.models.operations.GetNamespacesQueryParams;
+import fabra.io.javasdk.models.operations.GetNamespacesRequest;
+import fabra.io.javasdk.models.operations.GetNamespacesResponse;
 
 public class Application {
     public static void main(String[] args) {
