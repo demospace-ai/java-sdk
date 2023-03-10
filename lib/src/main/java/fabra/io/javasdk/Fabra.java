@@ -21,8 +21,8 @@ public class Fabra {
 	private fabra.io.javasdk.models.shared.Security _security;
 	private String _serverUrl;
 	private String _language = "java";
-	private String _sdkVersion = "0.3.2";
-	private String _genVersion = "1.8.7";
+	private String _sdkVersion = "0.4.0";
+	private String _genVersion = "1.9.1";
 
 	public static class Builder {
 		private HTTPClient client;
