@@ -12,7 +12,7 @@
 ### Gradle
 
 ```groovy
-implementation 'fabra.io.javasdk:fabra-java-sdk:0.6.3'
+implementation 'fabra.io.javasdk:fabra-java-sdk:0.7.0'
 ```
 <!-- End SDK Installation -->
 
