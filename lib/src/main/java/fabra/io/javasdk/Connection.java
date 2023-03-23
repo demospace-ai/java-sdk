@@ -12,6 +12,9 @@ import java.net.http.HttpResponse;
 import java.nio.charset.StandardCharsets;
 import org.apache.http.NameValuePair;
 
+/**
+ * Operations on connections
+ */
 public class Connection {
 	
 	private HTTPClient _defaultClient;
@@ -58,7 +61,7 @@ public class Connection {
         String contentType = httpRes.headers().firstValue("Content-Type").orElse("application/octet-stream");
 
         fabra.io.javasdk.models.operations.GetNamespacesResponse res = new fabra.io.javasdk.models.operations.GetNamespacesResponse() {{
-            getNamespaces200ApplicationJSONObject = null;
+            namespaces = null;
         }};
         res.statusCode = httpRes.statusCode();
         res.contentType = contentType;
@@ -67,8 +70,8 @@ public class Connection {
         if (httpRes.statusCode() == 200) {
             if (fabra.io.javasdk.utils.Utils.matchContentType(contentType, "application/json")) {
                 ObjectMapper mapper = JSON.getMapper();
-                fabra.io.javasdk.models.operations.GetNamespaces200ApplicationJSON out = mapper.readValue(new String(httpRes.body(), StandardCharsets.UTF_8), fabra.io.javasdk.models.operations.GetNamespaces200ApplicationJSON.class);
-                res.getNamespaces200ApplicationJSONObject = out;
+                fabra.io.javasdk.models.shared.Namespaces out = mapper.readValue(new String(httpRes.body(), StandardCharsets.UTF_8), fabra.io.javasdk.models.shared.Namespaces.class);
+                res.namespaces = out;
             }
         }
         else if (httpRes.statusCode() == 401 || httpRes.statusCode() == 500) {

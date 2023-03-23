@@ -12,7 +12,7 @@
 ### Gradle
 
 ```groovy
-implementation 'fabra.io.javasdk:fabra-java-sdk:0.7.0'
+implementation 'fabra.io.javasdk:fabra-java-sdk:0.8.0'
 ```
 <!-- End SDK Installation -->
 
@@ -46,7 +46,7 @@ public class Application {
 
             GetNamespacesResponse res = sdk.connection.getNamespaces(req);
 
-            if (res.getNamespaces200ApplicationJSONObject.isPresent()) {
+            if (res.namespaces.isPresent()) {
                 // handle response
             }
         } catch (Exception e) {

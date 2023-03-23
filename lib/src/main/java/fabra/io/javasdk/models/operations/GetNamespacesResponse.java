@@ -13,6 +13,15 @@ public class GetNamespacesResponse {
         return this;
     }
     
+    /**
+     * Successfully fetched namespaces
+     */
+    public fabra.io.javasdk.models.shared.Namespaces namespaces;
+    public GetNamespacesResponse withNamespaces(fabra.io.javasdk.models.shared.Namespaces namespaces) {
+        this.namespaces = namespaces;
+        return this;
+    }
+    
     public Integer statusCode;
     public GetNamespacesResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
@@ -22,15 +31,6 @@ public class GetNamespacesResponse {
     public HttpResponse<byte[]> rawResponse;
     public GetNamespacesResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
-        return this;
-    }
-    
-    /**
-     * Successfully fetched namespaces
-     */
-    public GetNamespaces200ApplicationJSON getNamespaces200ApplicationJSONObject;
-    public GetNamespacesResponse withGetNamespaces200ApplicationJSONObject(GetNamespaces200ApplicationJSON getNamespaces200ApplicationJSONObject) {
-        this.getNamespaces200ApplicationJSONObject = getNamespaces200ApplicationJSONObject;
         return this;
     }
     

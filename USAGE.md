@@ -27,7 +27,7 @@ public class Application {
 
             GetNamespacesResponse res = sdk.connection.getNamespaces(req);
 
-            if (res.getNamespaces200ApplicationJSONObject.isPresent()) {
+            if (res.namespaces.isPresent()) {
                 // handle response
             }
         } catch (Exception e) {

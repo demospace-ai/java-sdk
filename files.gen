@@ -37,7 +37,6 @@ lib/src/main/java/fabra/io/javasdk/utils/Utils.java
 settings.gradle
 lib/src/main/java/fabra/io/javasdk/models/operations/GetNamespacesQueryParams.java
 lib/src/main/java/fabra/io/javasdk/models/operations/GetNamespacesRequest.java
-lib/src/main/java/fabra/io/javasdk/models/operations/GetNamespaces200ApplicationJSON.java
 lib/src/main/java/fabra/io/javasdk/models/operations/GetNamespacesResponse.java
 lib/src/main/java/fabra/io/javasdk/models/operations/GetSchemaQueryParams.java
 lib/src/main/java/fabra/io/javasdk/models/operations/GetSchemaRequest.java
@@ -69,6 +68,7 @@ lib/src/main/java/fabra/io/javasdk/models/operations/CreateSync200ApplicationJSO
 lib/src/main/java/fabra/io/javasdk/models/operations/CreateSyncResponse.java
 lib/src/main/java/fabra/io/javasdk/models/operations/GetSyncs200ApplicationJSON.java
 lib/src/main/java/fabra/io/javasdk/models/operations/GetSyncsResponse.java
+lib/src/main/java/fabra/io/javasdk/models/shared/Namespaces.java
 lib/src/main/java/fabra/io/javasdk/models/shared/Field.java
 lib/src/main/java/fabra/io/javasdk/models/shared/FieldTypeEnum.java
 lib/src/main/java/fabra/io/javasdk/models/shared/Destination.java

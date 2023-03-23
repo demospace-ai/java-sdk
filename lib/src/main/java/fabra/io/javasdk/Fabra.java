@@ -15,6 +15,9 @@ public class Fabra {
         "https://api.fabra.io",
 	};
   	
+    /**
+     * Operations on connections
+     */
     public Connection connection;
     /**
      * Operations on destinations
@@ -24,6 +27,9 @@ public class Fabra {
      * Operations on link tokens
      */
     public LinkToken linkToken;
+    /**
+     * Operations on objects
+     */
     public Object object;
     /**
      * Operations on sources
@@ -39,8 +45,8 @@ public class Fabra {
 	private fabra.io.javasdk.models.shared.Security _security;
 	private String _serverUrl;
 	private String _language = "java";
-	private String _sdkVersion = "0.7.0";
-	private String _genVersion = "2.12.10";
+	private String _sdkVersion = "0.8.0";
+	private String _genVersion = "2.13.1";
 	/**
 	 * The Builder class allows the configuration of a new instance of the SDK.
 	 */

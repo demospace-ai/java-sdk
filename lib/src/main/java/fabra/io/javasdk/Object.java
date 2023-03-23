@@ -12,6 +12,9 @@ import fabra.io.javasdk.utils.SerializedBody;
 import java.net.http.HttpResponse;
 import java.nio.charset.StandardCharsets;
 
+/**
+ * Operations on objects
+ */
 public class Object {
 	
 	private HTTPClient _defaultClient;
