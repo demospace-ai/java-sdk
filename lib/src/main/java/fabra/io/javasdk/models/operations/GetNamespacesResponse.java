@@ -7,6 +7,7 @@ package fabra.io.javasdk.models.operations;
 import java.net.http.HttpResponse;
 
 public class GetNamespacesResponse {
+    
     public String contentType;
     public GetNamespacesResponse withContentType(String contentType) {
         this.contentType = contentType;
@@ -16,17 +17,20 @@ public class GetNamespacesResponse {
     /**
      * Successfully fetched namespaces
      */
+    
     public fabra.io.javasdk.models.shared.Namespaces namespaces;
     public GetNamespacesResponse withNamespaces(fabra.io.javasdk.models.shared.Namespaces namespaces) {
         this.namespaces = namespaces;
         return this;
     }
     
+    
     public Integer statusCode;
     public GetNamespacesResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
     }
+    
     
     public HttpResponse<byte[]> rawResponse;
     public GetNamespacesResponse withRawResponse(HttpResponse<byte[]> rawResponse) {

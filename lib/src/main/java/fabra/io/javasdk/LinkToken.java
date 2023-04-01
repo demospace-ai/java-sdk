@@ -39,7 +39,7 @@ public class LinkToken {
      * @return the response from the API call
      * @throws Exception if the API call fails
      */
-    public fabra.io.javasdk.models.operations.CreateLinkTokenResponse createLinkToken(fabra.io.javasdk.models.operations.CreateLinkTokenRequest request) throws Exception {
+    public fabra.io.javasdk.models.operations.CreateLinkTokenResponse createLinkToken(fabra.io.javasdk.models.shared.CreateLinkTokenRequest request) throws Exception {
         String baseUrl = this._serverUrl;
         String url = fabra.io.javasdk.utils.Utils.generateURL(baseUrl, "/link_token");
         

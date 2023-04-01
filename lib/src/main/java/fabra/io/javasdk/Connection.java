@@ -47,7 +47,7 @@ public class Connection {
         req.setMethod("GET");
         req.setURL(url);
         
-        java.util.List<NameValuePair> queryParams = fabra.io.javasdk.utils.Utils.getQueryParams(fabra.io.javasdk.models.operations.GetNamespacesQueryParams.class, request.queryParams, null);
+        java.util.List<NameValuePair> queryParams = fabra.io.javasdk.utils.Utils.getQueryParams(fabra.io.javasdk.models.operations.GetNamespacesRequest.class, request, null);
         if (queryParams != null) {
             for (NameValuePair queryParam : queryParams) {
                 req.addQueryParam(queryParam);
@@ -94,7 +94,7 @@ public class Connection {
         req.setMethod("GET");
         req.setURL(url);
         
-        java.util.List<NameValuePair> queryParams = fabra.io.javasdk.utils.Utils.getQueryParams(fabra.io.javasdk.models.operations.GetSchemaQueryParams.class, request.queryParams, null);
+        java.util.List<NameValuePair> queryParams = fabra.io.javasdk.utils.Utils.getQueryParams(fabra.io.javasdk.models.operations.GetSchemaRequest.class, request, null);
         if (queryParams != null) {
             for (NameValuePair queryParam : queryParams) {
                 req.addQueryParam(queryParam);
@@ -141,7 +141,7 @@ public class Connection {
         req.setMethod("GET");
         req.setURL(url);
         
-        java.util.List<NameValuePair> queryParams = fabra.io.javasdk.utils.Utils.getQueryParams(fabra.io.javasdk.models.operations.GetTablesQueryParams.class, request.queryParams, null);
+        java.util.List<NameValuePair> queryParams = fabra.io.javasdk.utils.Utils.getQueryParams(fabra.io.javasdk.models.operations.GetTablesRequest.class, request, null);
         if (queryParams != null) {
             for (NameValuePair queryParam : queryParams) {
                 req.addQueryParam(queryParam);

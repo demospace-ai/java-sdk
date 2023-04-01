@@ -39,7 +39,7 @@ public class Sync {
      * @return the response from the API call
      * @throws Exception if the API call fails
      */
-    public fabra.io.javasdk.models.operations.CreateSyncResponse createSync(fabra.io.javasdk.models.operations.CreateSyncRequest request) throws Exception {
+    public fabra.io.javasdk.models.operations.CreateSyncResponse createSync(fabra.io.javasdk.models.shared.SyncInput request) throws Exception {
         String baseUrl = this._serverUrl;
         String url = fabra.io.javasdk.utils.Utils.generateURL(baseUrl, "/sync");
         

@@ -39,7 +39,7 @@ public class Source {
      * @return the response from the API call
      * @throws Exception if the API call fails
      */
-    public fabra.io.javasdk.models.operations.CreateSourceResponse createSource(fabra.io.javasdk.models.operations.CreateSourceRequest request) throws Exception {
+    public fabra.io.javasdk.models.operations.CreateSourceResponse createSource(fabra.io.javasdk.models.shared.SourceInput request) throws Exception {
         String baseUrl = this._serverUrl;
         String url = fabra.io.javasdk.utils.Utils.generateURL(baseUrl, "/source");
         

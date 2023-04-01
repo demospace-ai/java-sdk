@@ -4,12 +4,13 @@
 
 package fabra.io.javasdk.models.operations;
 
-
+import fabra.io.javasdk.utils.SpeakeasyMetadata;
 
 public class GetNamespacesRequest {
-    public GetNamespacesQueryParams queryParams;
-    public GetNamespacesRequest withQueryParams(GetNamespacesQueryParams queryParams) {
-        this.queryParams = queryParams;
+    @SpeakeasyMetadata("queryParam:style=form,explode=true,name=connectionID")
+    public Long connectionID;
+    public GetNamespacesRequest withConnectionID(Long connectionID) {
+        this.connectionID = connectionID;
         return this;
     }
     

@@ -39,7 +39,7 @@ public class Destination {
      * @return the response from the API call
      * @throws Exception if the API call fails
      */
-    public fabra.io.javasdk.models.operations.CreateDestinationResponse createDestination(fabra.io.javasdk.models.operations.CreateDestinationRequest request) throws Exception {
+    public fabra.io.javasdk.models.operations.CreateDestinationResponse createDestination(fabra.io.javasdk.models.shared.DestinationInput request) throws Exception {
         String baseUrl = this._serverUrl;
         String url = fabra.io.javasdk.utils.Utils.generateURL(baseUrl, "/destination");
         

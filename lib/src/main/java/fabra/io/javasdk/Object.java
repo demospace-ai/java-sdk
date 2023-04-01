@@ -39,7 +39,7 @@ public class Object {
      * @return the response from the API call
      * @throws Exception if the API call fails
      */
-    public fabra.io.javasdk.models.operations.CreateObjectResponse createObject(fabra.io.javasdk.models.operations.CreateObjectRequest request) throws Exception {
+    public fabra.io.javasdk.models.operations.CreateObjectResponse createObject(fabra.io.javasdk.models.shared.ObjectInput request) throws Exception {
         String baseUrl = this._serverUrl;
         String url = fabra.io.javasdk.utils.Utils.generateURL(baseUrl, "/object");
         
