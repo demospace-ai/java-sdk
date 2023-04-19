@@ -41,7 +41,7 @@ publishing {
         maven(MavenPublication) {
             groupId = 'fabra.io'
             artifactId = 'javasdk'
-            version = '0.12.1'
+            version = '0.12.2'
 
             from components.java
 
