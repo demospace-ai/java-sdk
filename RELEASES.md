@@ -173,3 +173,9 @@ Based on:
 Based on:
 - OpenAPI Doc 0.1.0 https://fabra-io.github.io/docs/openapi.yaml
 - Speakeasy CLI 1.21.3 https://github.com/speakeasy-api/speakeasy
+
+## 2023-04-21 01:33:26
+### Changes
+Based on:
+- OpenAPI Doc 0.1.0 https://fabra-io.github.io/docs/openapi.yaml
+- Speakeasy CLI 1.21.4 https://github.com/speakeasy-api/speakeasy
