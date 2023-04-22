@@ -33,4 +33,6 @@ public class Destination {
         return this;
     }
     
+
+    public Destination(){}
 }

@@ -59,11 +59,9 @@ public class LinkToken {
 
         String contentType = httpRes.headers().firstValue("Content-Type").orElse("application/octet-stream");
 
-        fabra.io.javasdk.models.operations.CreateLinkTokenResponse res = new fabra.io.javasdk.models.operations.CreateLinkTokenResponse() {{
+        fabra.io.javasdk.models.operations.CreateLinkTokenResponse res = new fabra.io.javasdk.models.operations.CreateLinkTokenResponse(contentType, httpRes.statusCode()) {{
             createLinkTokenResponse = null;
         }};
-        res.statusCode = httpRes.statusCode();
-        res.contentType = contentType;
         res.rawResponse = httpRes;
         
         if (httpRes.statusCode() == 200) {

@@ -59,11 +59,9 @@ public class Sync {
 
         String contentType = httpRes.headers().firstValue("Content-Type").orElse("application/octet-stream");
 
-        fabra.io.javasdk.models.operations.CreateSyncResponse res = new fabra.io.javasdk.models.operations.CreateSyncResponse() {{
+        fabra.io.javasdk.models.operations.CreateSyncResponse res = new fabra.io.javasdk.models.operations.CreateSyncResponse(contentType, httpRes.statusCode()) {{
             createSync200ApplicationJSONObject = null;
         }};
-        res.statusCode = httpRes.statusCode();
-        res.contentType = contentType;
         res.rawResponse = httpRes;
         
         if (httpRes.statusCode() == 200) {
@@ -99,11 +97,9 @@ public class Sync {
 
         String contentType = httpRes.headers().firstValue("Content-Type").orElse("application/octet-stream");
 
-        fabra.io.javasdk.models.operations.GetSyncsResponse res = new fabra.io.javasdk.models.operations.GetSyncsResponse() {{
+        fabra.io.javasdk.models.operations.GetSyncsResponse res = new fabra.io.javasdk.models.operations.GetSyncsResponse(contentType, httpRes.statusCode()) {{
             getSyncs200ApplicationJSONObject = null;
         }};
-        res.statusCode = httpRes.statusCode();
-        res.contentType = contentType;
         res.rawResponse = httpRes;
         
         if (httpRes.statusCode() == 200) {

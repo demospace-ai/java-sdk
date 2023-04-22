@@ -68,4 +68,6 @@ public class Object {
         return this;
     }
     
+
+    public Object(){}
 }

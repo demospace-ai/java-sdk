@@ -60,11 +60,9 @@ public class Connection {
 
         String contentType = httpRes.headers().firstValue("Content-Type").orElse("application/octet-stream");
 
-        fabra.io.javasdk.models.operations.GetNamespacesResponse res = new fabra.io.javasdk.models.operations.GetNamespacesResponse() {{
+        fabra.io.javasdk.models.operations.GetNamespacesResponse res = new fabra.io.javasdk.models.operations.GetNamespacesResponse(contentType, httpRes.statusCode()) {{
             namespaces = null;
         }};
-        res.statusCode = httpRes.statusCode();
-        res.contentType = contentType;
         res.rawResponse = httpRes;
         
         if (httpRes.statusCode() == 200) {
@@ -107,11 +105,9 @@ public class Connection {
 
         String contentType = httpRes.headers().firstValue("Content-Type").orElse("application/octet-stream");
 
-        fabra.io.javasdk.models.operations.GetSchemaResponse res = new fabra.io.javasdk.models.operations.GetSchemaResponse() {{
+        fabra.io.javasdk.models.operations.GetSchemaResponse res = new fabra.io.javasdk.models.operations.GetSchemaResponse(contentType, httpRes.statusCode()) {{
             getSchema200ApplicationJSONObject = null;
         }};
-        res.statusCode = httpRes.statusCode();
-        res.contentType = contentType;
         res.rawResponse = httpRes;
         
         if (httpRes.statusCode() == 200) {
@@ -154,11 +150,9 @@ public class Connection {
 
         String contentType = httpRes.headers().firstValue("Content-Type").orElse("application/octet-stream");
 
-        fabra.io.javasdk.models.operations.GetTablesResponse res = new fabra.io.javasdk.models.operations.GetTablesResponse() {{
+        fabra.io.javasdk.models.operations.GetTablesResponse res = new fabra.io.javasdk.models.operations.GetTablesResponse(contentType, httpRes.statusCode()) {{
             getTables200ApplicationJSONObject = null;
         }};
-        res.statusCode = httpRes.statusCode();
-        res.contentType = contentType;
         res.rawResponse = httpRes;
         
         if (httpRes.statusCode() == 200) {

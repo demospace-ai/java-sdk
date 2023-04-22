@@ -4,6 +4,7 @@
 
 package fabra.io.javasdk.models.operations;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import fabra.io.javasdk.utils.SpeakeasyMetadata;
 
 public class GetSchemaRequest {
@@ -28,4 +29,10 @@ public class GetSchemaRequest {
         return this;
     }
     
+
+    public GetSchemaRequest(@JsonProperty("connectionID") Long connectionID, @JsonProperty("namespace") String namespace, @JsonProperty("tableName") String tableName) {
+    this.connectionID = connectionID;
+this.namespace = namespace;
+this.tableName = tableName;
+  }
 }

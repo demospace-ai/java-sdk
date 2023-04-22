@@ -4,6 +4,7 @@
 
 package fabra.io.javasdk.models.operations;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import java.net.http.HttpResponse;
 
 public class CreateSyncResponse {
@@ -38,4 +39,9 @@ public class CreateSyncResponse {
         return this;
     }
     
+
+    public CreateSyncResponse(@JsonProperty("ContentType") String contentType, @JsonProperty("StatusCode") Integer statusCode) {
+    this.contentType = contentType;
+this.statusCode = statusCode;
+  }
 }

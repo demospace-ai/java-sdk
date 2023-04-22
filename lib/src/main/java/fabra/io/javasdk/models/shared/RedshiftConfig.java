@@ -42,4 +42,12 @@ public class RedshiftConfig {
         return this;
     }
     
+
+    public RedshiftConfig(@JsonProperty("username") String username, @JsonProperty("password") String password, @JsonProperty("database_name") String databaseName, @JsonProperty("host") String host, @JsonProperty("port") String port) {
+    this.username = username;
+this.password = password;
+this.databaseName = databaseName;
+this.host = host;
+this.port = port;
+  }
 }

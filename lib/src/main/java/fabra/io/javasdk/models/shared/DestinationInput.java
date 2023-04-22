@@ -55,4 +55,9 @@ public class DestinationInput {
         return this;
     }
     
+
+    public DestinationInput(@JsonProperty("connection_type") ConnectionTypeEnum connectionType, @JsonProperty("display_name") String displayName) {
+    this.connectionType = connectionType;
+this.displayName = displayName;
+  }
 }

@@ -25,4 +25,6 @@ public class Connection {
         return this;
     }
     
+
+    public Connection(){}
 }

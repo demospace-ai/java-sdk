@@ -12,7 +12,7 @@
 ### Gradle
 
 ```groovy
-implementation 'fabra.io.javasdk:fabra-java-sdk:0.13.1'
+implementation 'fabra.io.javasdk:fabra-java-sdk:0.14.0'
 ```
 <!-- End SDK Installation -->
 
@@ -30,14 +30,12 @@ public class Application {
     public static void main(String[] args) {
         try {
             Fabra sdk = Fabra.builder()
-                .setSecurity(new Security() {{
+                .setSecurity(new Security("corrupti") {{
                     apiKeyAuth = "YOUR_API_KEY_HERE";
                 }})
                 .build();
 
-            GetNamespacesRequest req = new GetNamespacesRequest() {{
-                connectionID = 548814;
-            }}            
+            GetNamespacesRequest req = new GetNamespacesRequest(592845);            
 
             GetNamespacesResponse res = sdk.connection.getNamespaces(req);
 

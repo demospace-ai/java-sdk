@@ -4,6 +4,7 @@
 
 package fabra.io.javasdk.models.operations;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import fabra.io.javasdk.utils.SpeakeasyMetadata;
 
 public class GetNamespacesRequest {
@@ -14,4 +15,8 @@ public class GetNamespacesRequest {
         return this;
     }
     
+
+    public GetNamespacesRequest(@JsonProperty("connectionID") Long connectionID) {
+    this.connectionID = connectionID;
+  }
 }

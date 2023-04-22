@@ -20,4 +20,6 @@ public class GetTables200ApplicationJSON {
         return this;
     }
     
+
+    public GetTables200ApplicationJSON(){}
 }

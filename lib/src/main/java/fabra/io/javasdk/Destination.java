@@ -59,11 +59,9 @@ public class Destination {
 
         String contentType = httpRes.headers().firstValue("Content-Type").orElse("application/octet-stream");
 
-        fabra.io.javasdk.models.operations.CreateDestinationResponse res = new fabra.io.javasdk.models.operations.CreateDestinationResponse() {{
+        fabra.io.javasdk.models.operations.CreateDestinationResponse res = new fabra.io.javasdk.models.operations.CreateDestinationResponse(contentType, httpRes.statusCode()) {{
             createDestination200ApplicationJSONObject = null;
         }};
-        res.statusCode = httpRes.statusCode();
-        res.contentType = contentType;
         res.rawResponse = httpRes;
         
         if (httpRes.statusCode() == 200) {
@@ -99,11 +97,9 @@ public class Destination {
 
         String contentType = httpRes.headers().firstValue("Content-Type").orElse("application/octet-stream");
 
-        fabra.io.javasdk.models.operations.GetDestinationsResponse res = new fabra.io.javasdk.models.operations.GetDestinationsResponse() {{
+        fabra.io.javasdk.models.operations.GetDestinationsResponse res = new fabra.io.javasdk.models.operations.GetDestinationsResponse(contentType, httpRes.statusCode()) {{
             getDestinations200ApplicationJSONObject = null;
         }};
-        res.statusCode = httpRes.statusCode();
-        res.contentType = contentType;
         res.rawResponse = httpRes;
         
         if (httpRes.statusCode() == 200) {

@@ -4,6 +4,7 @@
 
 package fabra.io.javasdk.models.shared;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import fabra.io.javasdk.utils.SpeakeasyMetadata;
 
 public class Security {
@@ -14,4 +15,8 @@ public class Security {
         return this;
     }
     
+
+    public Security(@JsonProperty("ApiKeyAuth") String apiKeyAuth) {
+    this.apiKeyAuth = apiKeyAuth;
+  }
 }

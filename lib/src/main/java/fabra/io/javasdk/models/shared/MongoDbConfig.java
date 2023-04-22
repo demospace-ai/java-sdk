@@ -38,4 +38,10 @@ public class MongoDbConfig {
         return this;
     }
     
+
+    public MongoDbConfig(@JsonProperty("username") String username, @JsonProperty("password") String password, @JsonProperty("host") String host) {
+    this.username = username;
+this.password = password;
+this.host = host;
+  }
 }

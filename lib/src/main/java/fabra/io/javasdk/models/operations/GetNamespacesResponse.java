@@ -4,6 +4,7 @@
 
 package fabra.io.javasdk.models.operations;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import java.net.http.HttpResponse;
 
 public class GetNamespacesResponse {
@@ -38,4 +39,9 @@ public class GetNamespacesResponse {
         return this;
     }
     
+
+    public GetNamespacesResponse(@JsonProperty("ContentType") String contentType, @JsonProperty("StatusCode") Integer statusCode) {
+    this.contentType = contentType;
+this.statusCode = statusCode;
+  }
 }

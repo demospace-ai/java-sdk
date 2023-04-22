@@ -25,4 +25,6 @@ public class Field {
         return this;
     }
     
+
+    public Field(){}
 }

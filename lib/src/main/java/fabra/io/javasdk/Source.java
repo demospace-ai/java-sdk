@@ -59,11 +59,9 @@ public class Source {
 
         String contentType = httpRes.headers().firstValue("Content-Type").orElse("application/octet-stream");
 
-        fabra.io.javasdk.models.operations.CreateSourceResponse res = new fabra.io.javasdk.models.operations.CreateSourceResponse() {{
+        fabra.io.javasdk.models.operations.CreateSourceResponse res = new fabra.io.javasdk.models.operations.CreateSourceResponse(contentType, httpRes.statusCode()) {{
             createSource200ApplicationJSONObject = null;
         }};
-        res.statusCode = httpRes.statusCode();
-        res.contentType = contentType;
         res.rawResponse = httpRes;
         
         if (httpRes.statusCode() == 200) {
@@ -99,11 +97,9 @@ public class Source {
 
         String contentType = httpRes.headers().firstValue("Content-Type").orElse("application/octet-stream");
 
-        fabra.io.javasdk.models.operations.GetSourcesResponse res = new fabra.io.javasdk.models.operations.GetSourcesResponse() {{
+        fabra.io.javasdk.models.operations.GetSourcesResponse res = new fabra.io.javasdk.models.operations.GetSourcesResponse(contentType, httpRes.statusCode()) {{
             getSources200ApplicationJSONObject = null;
         }};
-        res.statusCode = httpRes.statusCode();
-        res.contentType = contentType;
         res.rawResponse = httpRes;
         
         if (httpRes.statusCode() == 200) {

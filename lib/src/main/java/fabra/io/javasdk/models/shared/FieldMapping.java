@@ -25,4 +25,6 @@ public class FieldMapping {
         return this;
     }
     
+
+    public FieldMapping(){}
 }

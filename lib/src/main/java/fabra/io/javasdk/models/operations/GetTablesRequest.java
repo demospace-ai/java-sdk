@@ -4,6 +4,7 @@
 
 package fabra.io.javasdk.models.operations;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import fabra.io.javasdk.utils.SpeakeasyMetadata;
 
 public class GetTablesRequest {
@@ -21,4 +22,9 @@ public class GetTablesRequest {
         return this;
     }
     
+
+    public GetTablesRequest(@JsonProperty("connectionID") Long connectionID, @JsonProperty("namespace") String namespace) {
+    this.connectionID = connectionID;
+this.namespace = namespace;
+  }
 }

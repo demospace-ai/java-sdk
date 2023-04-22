@@ -20,4 +20,6 @@ public class GetDestinations200ApplicationJSON {
         return this;
     }
     
+
+    public GetDestinations200ApplicationJSON(){}
 }

@@ -98,4 +98,14 @@ public class SyncInput {
         return this;
     }
     
+
+    public SyncInput(@JsonProperty("destination_id") Long destinationId, @JsonProperty("display_name") String displayName, @JsonProperty("field_mappings") FieldMapping[] fieldMappings, @JsonProperty("frequency") Long frequency, @JsonProperty("frequency_units") FrequencyUnitsEnum frequencyUnits, @JsonProperty("object_id") Long objectId, @JsonProperty("source_id") Long sourceId) {
+    this.destinationId = destinationId;
+this.displayName = displayName;
+this.fieldMappings = fieldMappings;
+this.frequency = frequency;
+this.frequencyUnits = frequencyUnits;
+this.objectId = objectId;
+this.sourceId = sourceId;
+  }
 }

@@ -55,4 +55,12 @@ public class ObjectInput {
         return this;
     }
     
+
+    public ObjectInput(@JsonProperty("destination_id") Long destinationId, @JsonProperty("display_name") String displayName, @JsonProperty("end_customer_id_field") String endCustomerIdField, @JsonProperty("namespace") String namespace, @JsonProperty("table_name") String tableName) {
+    this.destinationId = destinationId;
+this.displayName = displayName;
+this.endCustomerIdField = endCustomerIdField;
+this.namespace = namespace;
+this.tableName = tableName;
+  }
 }

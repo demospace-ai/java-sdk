@@ -20,4 +20,6 @@ public class GetObjects200ApplicationJSON {
         return this;
     }
     
+
+    public GetObjects200ApplicationJSON(){}
 }

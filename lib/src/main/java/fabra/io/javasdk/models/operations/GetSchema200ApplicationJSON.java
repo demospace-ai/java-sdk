@@ -20,4 +20,6 @@ public class GetSchema200ApplicationJSON {
         return this;
     }
     
+
+    public GetSchema200ApplicationJSON(){}
 }
