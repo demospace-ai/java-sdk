@@ -25,6 +25,5 @@ public class ObjectField {
         return this;
     }
     
-
     public ObjectField(){}
 }

@@ -24,8 +24,7 @@ public class BigQueryConfig {
         return this;
     }
     
-
     public BigQueryConfig(@JsonProperty("location") String location) {
-    this.location = location;
+        this.location = location;
   }
 }

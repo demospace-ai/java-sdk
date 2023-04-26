@@ -62,10 +62,9 @@ public class SourceInput {
         return this;
     }
     
-
     public SourceInput(@JsonProperty("connection_type") ConnectionTypeEnum connectionType, @JsonProperty("display_name") String displayName, @JsonProperty("end_customer_id") Long endCustomerId) {
-    this.connectionType = connectionType;
-this.displayName = displayName;
-this.endCustomerId = endCustomerId;
+        this.connectionType = connectionType;
+        this.displayName = displayName;
+        this.endCustomerId = endCustomerId;
   }
 }

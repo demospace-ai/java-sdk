@@ -14,8 +14,7 @@ public class CreateLinkTokenRequest {
         return this;
     }
     
-
     public CreateLinkTokenRequest(@JsonProperty("end_customer_id") String endCustomerId) {
-    this.endCustomerId = endCustomerId;
+        this.endCustomerId = endCustomerId;
   }
 }

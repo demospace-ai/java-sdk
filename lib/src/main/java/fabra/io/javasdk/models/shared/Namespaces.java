@@ -20,6 +20,5 @@ public class Namespaces {
         return this;
     }
     
-
     public Namespaces(){}
 }

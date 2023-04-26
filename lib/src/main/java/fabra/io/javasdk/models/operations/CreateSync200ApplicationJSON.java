@@ -20,6 +20,5 @@ public class CreateSync200ApplicationJSON {
         return this;
     }
     
-
     public CreateSync200ApplicationJSON(){}
 }

@@ -49,13 +49,12 @@ public class SnowflakeConfig {
         return this;
     }
     
-
     public SnowflakeConfig(@JsonProperty("username") String username, @JsonProperty("password") String password, @JsonProperty("database_name") String databaseName, @JsonProperty("host") String host, @JsonProperty("role") String role, @JsonProperty("warehouse_name") String warehouseName) {
-    this.username = username;
-this.password = password;
-this.databaseName = databaseName;
-this.host = host;
-this.role = role;
-this.warehouseName = warehouseName;
+        this.username = username;
+        this.password = password;
+        this.databaseName = databaseName;
+        this.host = host;
+        this.role = role;
+        this.warehouseName = warehouseName;
   }
 }

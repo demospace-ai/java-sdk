@@ -15,8 +15,7 @@ public class GetNamespacesRequest {
         return this;
     }
     
-
     public GetNamespacesRequest(@JsonProperty("connectionID") Long connectionID) {
-    this.connectionID = connectionID;
+        this.connectionID = connectionID;
   }
 }

@@ -29,10 +29,9 @@ public class GetSchemaRequest {
         return this;
     }
     
-
     public GetSchemaRequest(@JsonProperty("connectionID") Long connectionID, @JsonProperty("namespace") String namespace, @JsonProperty("tableName") String tableName) {
-    this.connectionID = connectionID;
-this.namespace = namespace;
-this.tableName = tableName;
+        this.connectionID = connectionID;
+        this.namespace = namespace;
+        this.tableName = tableName;
   }
 }

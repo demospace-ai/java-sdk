@@ -20,6 +20,5 @@ public class CreateLinkTokenResponse {
         return this;
     }
     
-
     public CreateLinkTokenResponse(){}
 }

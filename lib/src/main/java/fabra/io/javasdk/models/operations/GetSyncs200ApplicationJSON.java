@@ -20,6 +20,5 @@ public class GetSyncs200ApplicationJSON {
         return this;
     }
     
-
     public GetSyncs200ApplicationJSON(){}
 }

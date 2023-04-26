@@ -20,6 +20,5 @@ public class CreateSource200ApplicationJSON {
         return this;
     }
     
-
     public CreateSource200ApplicationJSON(){}
 }

@@ -20,6 +20,5 @@ public class CreateDestination200ApplicationJSON {
         return this;
     }
     
-
     public CreateDestination200ApplicationJSON(){}
 }

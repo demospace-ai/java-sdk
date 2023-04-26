@@ -22,9 +22,8 @@ public class GetTablesRequest {
         return this;
     }
     
-
     public GetTablesRequest(@JsonProperty("connectionID") Long connectionID, @JsonProperty("namespace") String namespace) {
-    this.connectionID = connectionID;
-this.namespace = namespace;
+        this.connectionID = connectionID;
+        this.namespace = namespace;
   }
 }

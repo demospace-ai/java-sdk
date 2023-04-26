@@ -83,4 +83,11 @@ lib/src/main/java/fabra/io/javasdk/models/shared/FrequencyUnitsEnum.java
 lib/src/main/java/fabra/io/javasdk/models/shared/FieldMapping.java
 lib/src/main/java/fabra/io/javasdk/models/shared/SyncInput.java
 lib/src/main/java/fabra/io/javasdk/models/shared/Security.java
+docs/fabra/README.md
+docs/connection/README.md
+docs/destination/README.md
+docs/linktoken/README.md
+docs/object/README.md
+docs/source/README.md
+docs/sync/README.md
 USAGE.md

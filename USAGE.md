@@ -3,9 +3,9 @@
 package hello.world;
 
 import fabra.io.javasdk.Fabra;
-import fabra.io.javasdk.models.shared.Security;
 import fabra.io.javasdk.models.operations.GetNamespacesRequest;
 import fabra.io.javasdk.models.operations.GetNamespacesResponse;
+import fabra.io.javasdk.models.shared.Security;
 
 public class Application {
     public static void main(String[] args) {
@@ -16,15 +16,17 @@ public class Application {
                 }})
                 .build();
 
-            GetNamespacesRequest req = new GetNamespacesRequest(592845);            
+            GetNamespacesRequest req = new GetNamespacesRequest(592845L);            
 
             GetNamespacesResponse res = sdk.connection.getNamespaces(req);
 
-            if (res.namespaces.isPresent()) {
+            if (res.namespaces != null) {
                 // handle response
             }
         } catch (Exception e) {
             // handle exception
         }
+    }
+}
 ```
 <!-- End SDK Example Usage -->
