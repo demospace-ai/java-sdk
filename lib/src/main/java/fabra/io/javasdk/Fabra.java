@@ -45,8 +45,8 @@ public class Fabra {
 	private fabra.io.javasdk.models.shared.Security _security;
 	private String _serverUrl;
 	private String _language = "java";
-	private String _sdkVersion = "0.15.0";
-	private String _genVersion = "2.21.1";
+	private String _sdkVersion = "0.16.0";
+	private String _genVersion = "2.22.0";
 	/**
 	 * The Builder class allows the configuration of a new instance of the SDK.
 	 */
