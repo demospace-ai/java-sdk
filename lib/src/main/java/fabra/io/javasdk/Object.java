@@ -33,12 +33,6 @@ public class Object {
 		this._genVersion = genVersion;
 	}
 
-    /**
-     * Create a new object
-     * @param request the request object containing all of the parameters for the API call
-     * @return the response from the API call
-     * @throws Exception if the API call fails
-     */
     public fabra.io.javasdk.models.operations.CreateObjectResponse createObject(fabra.io.javasdk.models.shared.ObjectInput request) throws Exception {
         String baseUrl = this._serverUrl;
         String url = fabra.io.javasdk.utils.Utils.generateURL(baseUrl, "/object");
@@ -77,11 +71,6 @@ public class Object {
         return res;
     }
 
-    /**
-     * Get all objects
-     * @return the response from the API call
-     * @throws Exception if the API call fails
-     */
     public fabra.io.javasdk.models.operations.GetObjectsResponse getObjects() throws Exception {
         String baseUrl = this._serverUrl;
         String url = fabra.io.javasdk.utils.Utils.generateURL(baseUrl, "/objects");

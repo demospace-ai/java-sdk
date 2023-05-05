@@ -33,12 +33,6 @@ public class LinkToken {
 		this._genVersion = genVersion;
 	}
 
-    /**
-     * Create a new link token
-     * @param request the request object containing all of the parameters for the API call
-     * @return the response from the API call
-     * @throws Exception if the API call fails
-     */
     public fabra.io.javasdk.models.operations.CreateLinkTokenResponse createLinkToken(fabra.io.javasdk.models.shared.CreateLinkTokenRequest request) throws Exception {
         String baseUrl = this._serverUrl;
         String url = fabra.io.javasdk.utils.Utils.generateURL(baseUrl, "/link_token");

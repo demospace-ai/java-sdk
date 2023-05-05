@@ -33,12 +33,6 @@ public class Connection {
 		this._genVersion = genVersion;
 	}
 
-    /**
-     * Get all namespaces
-     * @param request the request object containing all of the parameters for the API call
-     * @return the response from the API call
-     * @throws Exception if the API call fails
-     */
     public fabra.io.javasdk.models.operations.GetNamespacesResponse getNamespaces(fabra.io.javasdk.models.operations.GetNamespacesRequest request) throws Exception {
         String baseUrl = this._serverUrl;
         String url = fabra.io.javasdk.utils.Utils.generateURL(baseUrl, "/connection/namespaces");
@@ -78,12 +72,6 @@ public class Connection {
         return res;
     }
 
-    /**
-     * Get schema for table
-     * @param request the request object containing all of the parameters for the API call
-     * @return the response from the API call
-     * @throws Exception if the API call fails
-     */
     public fabra.io.javasdk.models.operations.GetSchemaResponse getSchema(fabra.io.javasdk.models.operations.GetSchemaRequest request) throws Exception {
         String baseUrl = this._serverUrl;
         String url = fabra.io.javasdk.utils.Utils.generateURL(baseUrl, "/connection/schema");
@@ -123,12 +111,6 @@ public class Connection {
         return res;
     }
 
-    /**
-     * Get all tables
-     * @param request the request object containing all of the parameters for the API call
-     * @return the response from the API call
-     * @throws Exception if the API call fails
-     */
     public fabra.io.javasdk.models.operations.GetTablesResponse getTables(fabra.io.javasdk.models.operations.GetTablesRequest request) throws Exception {
         String baseUrl = this._serverUrl;
         String url = fabra.io.javasdk.utils.Utils.generateURL(baseUrl, "/connection/tables");
