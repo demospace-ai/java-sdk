@@ -32,8 +32,8 @@ public class SourceInput {
     }
     
     @JsonProperty("end_customer_id")
-    public Long endCustomerId;
-    public SourceInput withEndCustomerId(Long endCustomerId) {
+    public String endCustomerId;
+    public SourceInput withEndCustomerId(String endCustomerId) {
         this.endCustomerId = endCustomerId;
         return this;
     }
@@ -62,7 +62,7 @@ public class SourceInput {
         return this;
     }
     
-    public SourceInput(@JsonProperty("connection_type") ConnectionTypeEnum connectionType, @JsonProperty("display_name") String displayName, @JsonProperty("end_customer_id") Long endCustomerId) {
+    public SourceInput(@JsonProperty("connection_type") ConnectionTypeEnum connectionType, @JsonProperty("display_name") String displayName, @JsonProperty("end_customer_id") String endCustomerId) {
         this.connectionType = connectionType;
         this.displayName = displayName;
         this.endCustomerId = endCustomerId;

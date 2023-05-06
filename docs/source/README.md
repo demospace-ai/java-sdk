@@ -37,7 +37,7 @@ public class Application {
                 }})
                 .build();
 
-            fabra.io.javasdk.models.shared.SourceInput req = new SourceInput(ConnectionTypeEnum.REDSHIFT, "Frontend Events", 123L) {{
+            fabra.io.javasdk.models.shared.SourceInput req = new SourceInput(ConnectionTypeEnum.REDSHIFT, "Frontend Events", "abcd-1234-efgh-5678") {{
                 bigqueryConfig = new BigQueryConfig("us-west1") {{
                     credentials = "Paste JSON from GCP";
                 }};;

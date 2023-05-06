@@ -27,8 +27,8 @@ public class Source {
     
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("end_customer_id")
-    public Long endCustomerId;
-    public Source withEndCustomerId(Long endCustomerId) {
+    public String endCustomerId;
+    public Source withEndCustomerId(String endCustomerId) {
         this.endCustomerId = endCustomerId;
         return this;
     }

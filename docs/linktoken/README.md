@@ -31,7 +31,7 @@ public class Application {
                 }})
                 .build();
 
-            fabra.io.javasdk.models.shared.CreateLinkTokenRequest req = new CreateLinkTokenRequest("123");            
+            fabra.io.javasdk.models.shared.CreateLinkTokenRequest req = new CreateLinkTokenRequest("abcd-1234-efgh-5678");            
 
             CreateLinkTokenResponse res = sdk.linkToken.createLinkToken(req);
 
