@@ -33,6 +33,12 @@ public class Source {
 		this._genVersion = genVersion;
 	}
 
+    /**
+     * Create a new source
+     * @param request the request object containing all of the parameters for the API call
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public fabra.io.javasdk.models.operations.CreateSourceResponse createSource(fabra.io.javasdk.models.shared.SourceInput request) throws Exception {
         String baseUrl = this._serverUrl;
         String url = fabra.io.javasdk.utils.Utils.generateURL(baseUrl, "/source");
@@ -71,6 +77,11 @@ public class Source {
         return res;
     }
 
+    /**
+     * Get all sources
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public fabra.io.javasdk.models.operations.GetSourcesResponse getSources() throws Exception {
         String baseUrl = this._serverUrl;
         String url = fabra.io.javasdk.utils.Utils.generateURL(baseUrl, "/sources");

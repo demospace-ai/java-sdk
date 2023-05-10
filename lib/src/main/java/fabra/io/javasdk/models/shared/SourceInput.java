@@ -12,6 +12,7 @@ public class SourceInput {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("bigquery_config")
     public BigQueryConfig bigqueryConfig;
+
     public SourceInput withBigqueryConfig(BigQueryConfig bigqueryConfig) {
         this.bigqueryConfig = bigqueryConfig;
         return this;
@@ -19,6 +20,7 @@ public class SourceInput {
     
     @JsonProperty("connection_type")
     public ConnectionTypeEnum connectionType;
+
     public SourceInput withConnectionType(ConnectionTypeEnum connectionType) {
         this.connectionType = connectionType;
         return this;
@@ -26,6 +28,7 @@ public class SourceInput {
     
     @JsonProperty("display_name")
     public String displayName;
+
     public SourceInput withDisplayName(String displayName) {
         this.displayName = displayName;
         return this;
@@ -33,6 +36,7 @@ public class SourceInput {
     
     @JsonProperty("end_customer_id")
     public String endCustomerId;
+
     public SourceInput withEndCustomerId(String endCustomerId) {
         this.endCustomerId = endCustomerId;
         return this;
@@ -41,6 +45,7 @@ public class SourceInput {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("mongodb_config")
     public MongoDbConfig mongodbConfig;
+
     public SourceInput withMongodbConfig(MongoDbConfig mongodbConfig) {
         this.mongodbConfig = mongodbConfig;
         return this;
@@ -49,6 +54,7 @@ public class SourceInput {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("redshift_config")
     public RedshiftConfig redshiftConfig;
+
     public SourceInput withRedshiftConfig(RedshiftConfig redshiftConfig) {
         this.redshiftConfig = redshiftConfig;
         return this;
@@ -57,6 +63,7 @@ public class SourceInput {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("snowflake_config")
     public SnowflakeConfig snowflakeConfig;
+
     public SourceInput withSnowflakeConfig(SnowflakeConfig snowflakeConfig) {
         this.snowflakeConfig = snowflakeConfig;
         return this;

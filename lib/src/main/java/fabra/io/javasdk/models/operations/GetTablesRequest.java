@@ -10,6 +10,7 @@ import fabra.io.javasdk.utils.SpeakeasyMetadata;
 public class GetTablesRequest {
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=connectionID")
     public Long connectionID;
+
     public GetTablesRequest withConnectionID(Long connectionID) {
         this.connectionID = connectionID;
         return this;
@@ -17,6 +18,7 @@ public class GetTablesRequest {
     
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=namespace")
     public String namespace;
+
     public GetTablesRequest withNamespace(String namespace) {
         this.namespace = namespace;
         return this;

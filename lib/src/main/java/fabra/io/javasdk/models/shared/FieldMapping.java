@@ -12,6 +12,7 @@ public class FieldMapping {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("destination_field_name")
     public String destinationFieldName;
+
     public FieldMapping withDestinationFieldName(String destinationFieldName) {
         this.destinationFieldName = destinationFieldName;
         return this;
@@ -20,6 +21,7 @@ public class FieldMapping {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("source_field_name")
     public String sourceFieldName;
+
     public FieldMapping withSourceFieldName(String sourceFieldName) {
         this.sourceFieldName = sourceFieldName;
         return this;

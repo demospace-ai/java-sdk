@@ -15,6 +15,7 @@ public class GetTables200ApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("tables")
     public String[] tables;
+
     public GetTables200ApplicationJSON withTables(String[] tables) {
         this.tables = tables;
         return this;

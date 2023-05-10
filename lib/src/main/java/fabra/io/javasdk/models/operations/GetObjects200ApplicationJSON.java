@@ -15,6 +15,7 @@ public class GetObjects200ApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("objects")
     public fabra.io.javasdk.models.shared.Object[] objects;
+
     public GetObjects200ApplicationJSON withObjects(fabra.io.javasdk.models.shared.Object[] objects) {
         this.objects = objects;
         return this;

@@ -12,6 +12,7 @@ public class SyncInput {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("cursor_field")
     public String cursorField;
+
     public SyncInput withCursorField(String cursorField) {
         this.cursorField = cursorField;
         return this;
@@ -20,6 +21,7 @@ public class SyncInput {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("custom_join")
     public String customJoin;
+
     public SyncInput withCustomJoin(String customJoin) {
         this.customJoin = customJoin;
         return this;
@@ -27,6 +29,7 @@ public class SyncInput {
     
     @JsonProperty("destination_id")
     public Long destinationId;
+
     public SyncInput withDestinationId(Long destinationId) {
         this.destinationId = destinationId;
         return this;
@@ -34,6 +37,7 @@ public class SyncInput {
     
     @JsonProperty("display_name")
     public String displayName;
+
     public SyncInput withDisplayName(String displayName) {
         this.displayName = displayName;
         return this;
@@ -41,6 +45,7 @@ public class SyncInput {
     
     @JsonProperty("field_mappings")
     public FieldMapping[] fieldMappings;
+
     public SyncInput withFieldMappings(FieldMapping[] fieldMappings) {
         this.fieldMappings = fieldMappings;
         return this;
@@ -48,6 +53,7 @@ public class SyncInput {
     
     @JsonProperty("frequency")
     public Long frequency;
+
     public SyncInput withFrequency(Long frequency) {
         this.frequency = frequency;
         return this;
@@ -55,6 +61,7 @@ public class SyncInput {
     
     @JsonProperty("frequency_units")
     public FrequencyUnitsEnum frequencyUnits;
+
     public SyncInput withFrequencyUnits(FrequencyUnitsEnum frequencyUnits) {
         this.frequencyUnits = frequencyUnits;
         return this;
@@ -63,6 +70,7 @@ public class SyncInput {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("namespace")
     public String namespace;
+
     public SyncInput withNamespace(String namespace) {
         this.namespace = namespace;
         return this;
@@ -70,6 +78,7 @@ public class SyncInput {
     
     @JsonProperty("object_id")
     public Long objectId;
+
     public SyncInput withObjectId(Long objectId) {
         this.objectId = objectId;
         return this;
@@ -78,6 +87,7 @@ public class SyncInput {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("primary_key")
     public String primaryKey;
+
     public SyncInput withPrimaryKey(String primaryKey) {
         this.primaryKey = primaryKey;
         return this;
@@ -85,6 +95,7 @@ public class SyncInput {
     
     @JsonProperty("source_id")
     public Long sourceId;
+
     public SyncInput withSourceId(Long sourceId) {
         this.sourceId = sourceId;
         return this;
@@ -93,6 +104,7 @@ public class SyncInput {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("table_name")
     public String tableName;
+
     public SyncInput withTableName(String tableName) {
         this.tableName = tableName;
         return this;

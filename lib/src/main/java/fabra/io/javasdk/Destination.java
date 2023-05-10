@@ -33,6 +33,12 @@ public class Destination {
 		this._genVersion = genVersion;
 	}
 
+    /**
+     * Create a new destination
+     * @param request the request object containing all of the parameters for the API call
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public fabra.io.javasdk.models.operations.CreateDestinationResponse createDestination(fabra.io.javasdk.models.shared.DestinationInput request) throws Exception {
         String baseUrl = this._serverUrl;
         String url = fabra.io.javasdk.utils.Utils.generateURL(baseUrl, "/destination");
@@ -71,6 +77,11 @@ public class Destination {
         return res;
     }
 
+    /**
+     * Get all destinations
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public fabra.io.javasdk.models.operations.GetDestinationsResponse getDestinations() throws Exception {
         String baseUrl = this._serverUrl;
         String url = fabra.io.javasdk.utils.Utils.generateURL(baseUrl, "/destinations");

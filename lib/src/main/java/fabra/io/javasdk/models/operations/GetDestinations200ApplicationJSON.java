@@ -15,6 +15,7 @@ public class GetDestinations200ApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("destinations")
     public fabra.io.javasdk.models.shared.Destination[] destinations;
+
     public GetDestinations200ApplicationJSON withDestinations(fabra.io.javasdk.models.shared.Destination[] destinations) {
         this.destinations = destinations;
         return this;

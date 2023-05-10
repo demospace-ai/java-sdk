@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class CreateSourceResponse {
     
     public String contentType;
+
     public CreateSourceResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class CreateSourceResponse {
     
     
     public Integer statusCode;
+
     public CreateSourceResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class CreateSourceResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public CreateSourceResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class CreateSourceResponse {
      */
     
     public CreateSource200ApplicationJSON createSource200ApplicationJSONObject;
+
     public CreateSourceResponse withCreateSource200ApplicationJSONObject(CreateSource200ApplicationJSON createSource200ApplicationJSONObject) {
         this.createSource200ApplicationJSONObject = createSource200ApplicationJSONObject;
         return this;

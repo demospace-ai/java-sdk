@@ -33,6 +33,12 @@ public class Sync {
 		this._genVersion = genVersion;
 	}
 
+    /**
+     * Create a new sync
+     * @param request the request object containing all of the parameters for the API call
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public fabra.io.javasdk.models.operations.CreateSyncResponse createSync(fabra.io.javasdk.models.shared.SyncInput request) throws Exception {
         String baseUrl = this._serverUrl;
         String url = fabra.io.javasdk.utils.Utils.generateURL(baseUrl, "/sync");
@@ -71,6 +77,11 @@ public class Sync {
         return res;
     }
 
+    /**
+     * Get all syncs
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public fabra.io.javasdk.models.operations.GetSyncsResponse getSyncs() throws Exception {
         String baseUrl = this._serverUrl;
         String url = fabra.io.javasdk.utils.Utils.generateURL(baseUrl, "/syncs");

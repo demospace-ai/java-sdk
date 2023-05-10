@@ -11,6 +11,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 public class ObjectInput {
     @JsonProperty("destination_id")
     public Long destinationId;
+
     public ObjectInput withDestinationId(Long destinationId) {
         this.destinationId = destinationId;
         return this;
@@ -18,6 +19,7 @@ public class ObjectInput {
     
     @JsonProperty("display_name")
     public String displayName;
+
     public ObjectInput withDisplayName(String displayName) {
         this.displayName = displayName;
         return this;
@@ -28,6 +30,7 @@ public class ObjectInput {
      */
     @JsonProperty("end_customer_id_field")
     public String endCustomerIdField;
+
     public ObjectInput withEndCustomerIdField(String endCustomerIdField) {
         this.endCustomerIdField = endCustomerIdField;
         return this;
@@ -35,6 +38,7 @@ public class ObjectInput {
     
     @JsonProperty("namespace")
     public String namespace;
+
     public ObjectInput withNamespace(String namespace) {
         this.namespace = namespace;
         return this;
@@ -43,6 +47,7 @@ public class ObjectInput {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("object_fields")
     public ObjectField[] objectFields;
+
     public ObjectInput withObjectFields(ObjectField[] objectFields) {
         this.objectFields = objectFields;
         return this;
@@ -50,6 +55,7 @@ public class ObjectInput {
     
     @JsonProperty("table_name")
     public String tableName;
+
     public ObjectInput withTableName(String tableName) {
         this.tableName = tableName;
         return this;

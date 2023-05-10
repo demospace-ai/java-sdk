@@ -15,6 +15,7 @@ public class CreateLinkTokenResponse {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("link_token")
     public String linkToken;
+
     public CreateLinkTokenResponse withLinkToken(String linkToken) {
         this.linkToken = linkToken;
         return this;

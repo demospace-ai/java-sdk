@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class GetNamespacesResponse {
     
     public String contentType;
+
     public GetNamespacesResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -20,6 +21,7 @@ public class GetNamespacesResponse {
      */
     
     public fabra.io.javasdk.models.shared.Namespaces namespaces;
+
     public GetNamespacesResponse withNamespaces(fabra.io.javasdk.models.shared.Namespaces namespaces) {
         this.namespaces = namespaces;
         return this;
@@ -27,6 +29,7 @@ public class GetNamespacesResponse {
     
     
     public Integer statusCode;
+
     public GetNamespacesResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -34,6 +37,7 @@ public class GetNamespacesResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public GetNamespacesResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;

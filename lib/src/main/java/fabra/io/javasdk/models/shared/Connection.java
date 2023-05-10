@@ -12,6 +12,7 @@ public class Connection {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("connection_type")
     public ConnectionTypeEnum connectionType;
+
     public Connection withConnectionType(ConnectionTypeEnum connectionType) {
         this.connectionType = connectionType;
         return this;
@@ -20,6 +21,7 @@ public class Connection {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("id")
     public Long id;
+
     public Connection withId(Long id) {
         this.id = id;
         return this;
