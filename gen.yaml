@@ -1,14 +1,20 @@
 configVersion: 1.0.0
 management:
-  docChecksum: 8b6e699ac2ed042ca62a8341762bfe53
+  docChecksum: d52103ca533cedd698e27003b18f84c4
   docVersion: 0.1.0
-  speakeasyVersion: 1.8.5
+  speakeasyVersion: 1.29.2
 generation:
   telemetryEnabled: false
   sdkClassName: Fabra
   sdkFlattening: false
 java:
-  version: 0.3.0
+  version: 0.19.2
   artifactID: javasdk
+  companyEmail: info@mycompany.com
+  companyName: My Company
+  companyURL: www.mycompany.com
+  githubURL: github.com/owner/repo
   groupID: fabra.io
+  maxMethodParams: 0
+  ossrhURL: https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/
   projectName: fabra-java-sdk

@@ -35,3 +35,213 @@ Based on:
 Based on:
 - OpenAPI Doc 0.1.0 https://fabra-io.github.io/docs/openapi.yaml
 - Speakeasy CLI 1.8.5 https://github.com/speakeasy-api/speakeasy
+
+## 2023-03-08 01:53:33
+### Changes
+Based on:
+- OpenAPI Doc 0.1.0 https://fabra-io.github.io/docs/openapi.yaml
+- Speakeasy CLI 1.8.6 https://github.com/speakeasy-api/speakeasy
+
+## 2023-03-09 01:54:02
+### Changes
+Based on:
+- OpenAPI Doc 0.1.0 https://fabra-io.github.io/docs/openapi.yaml
+- Speakeasy CLI 1.8.7 https://github.com/speakeasy-api/speakeasy
+
+## 2023-03-10 01:54:11
+### Changes
+Based on:
+- OpenAPI Doc 0.1.0 https://fabra-io.github.io/docs/openapi.yaml
+- Speakeasy CLI 1.9.1 https://github.com/speakeasy-api/speakeasy
+
+## 2023-03-11 01:37:54
+### Changes
+Based on:
+- OpenAPI Doc 0.1.0 https://fabra-io.github.io/docs/openapi.yaml
+- Speakeasy CLI 1.9.2 https://github.com/speakeasy-api/speakeasy
+
+## 2023-03-14 01:24:52
+### Changes
+Based on:
+- OpenAPI Doc 0.1.0 https://fabra-io.github.io/docs/openapi.yaml
+- Speakeasy CLI 1.9.2 https://github.com/speakeasy-api/speakeasy
+
+## 2023-03-15 01:41:47
+### Changes
+Based on:
+- OpenAPI Doc 0.1.0 https://fabra-io.github.io/docs/openapi.yaml
+- Speakeasy CLI 1.11.0 https://github.com/speakeasy-api/speakeasy
+
+## 2023-03-16 01:42:21
+### Changes
+Based on:
+- OpenAPI Doc 0.1.0 https://fabra-io.github.io/docs/openapi.yaml
+- Speakeasy CLI 1.12.0 https://github.com/speakeasy-api/speakeasy
+
+## 2023-03-17 01:40:35
+### Changes
+Based on:
+- OpenAPI Doc 0.1.0 https://fabra-io.github.io/docs/openapi.yaml
+- Speakeasy CLI 1.12.1 https://github.com/speakeasy-api/speakeasy
+
+## 2023-03-18 01:40:43
+### Changes
+Based on:
+- OpenAPI Doc 0.1.0 https://fabra-io.github.io/docs/openapi.yaml
+- Speakeasy CLI 1.12.3 https://github.com/speakeasy-api/speakeasy
+
+## 2023-03-21 01:34:45
+### Changes
+Based on:
+- OpenAPI Doc 0.1.0 https://fabra-io.github.io/docs/openapi.yaml
+- Speakeasy CLI 1.12.4 https://github.com/speakeasy-api/speakeasy
+
+## 2023-03-22 01:35:51
+### Changes
+Based on:
+- OpenAPI Doc 0.1.0 https://fabra-io.github.io/docs/openapi.yaml
+- Speakeasy CLI 1.13.0 https://github.com/speakeasy-api/speakeasy
+
+## 2023-03-23 01:36:32
+### Changes
+Based on:
+- OpenAPI Doc 0.1.0 https://fabra-io.github.io/docs/openapi.yaml
+- Speakeasy CLI 1.15.0 https://github.com/speakeasy-api/speakeasy
+
+## 2023-03-24 01:35:54
+### Changes
+Based on:
+- OpenAPI Doc 0.1.0 https://fabra-io.github.io/docs/openapi.yaml
+- Speakeasy CLI 1.17.0 https://github.com/speakeasy-api/speakeasy
+
+## 2023-03-25 01:33:29
+### Changes
+Based on:
+- OpenAPI Doc 0.1.0 https://fabra-io.github.io/docs/openapi.yaml
+- Speakeasy CLI 1.18.7 https://github.com/speakeasy-api/speakeasy
+
+## 2023-03-28 01:39:46
+### Changes
+Based on:
+- OpenAPI Doc 0.1.0 https://fabra-io.github.io/docs/openapi.yaml
+- Speakeasy CLI 1.18.9 https://github.com/speakeasy-api/speakeasy
+
+## 2023-03-29 01:46:45
+### Changes
+Based on:
+- OpenAPI Doc 0.1.0 https://fabra-io.github.io/docs/openapi.yaml
+- Speakeasy CLI 1.19.2 https://github.com/speakeasy-api/speakeasy
+
+## 2023-04-01 01:36:10
+### Changes
+Based on:
+- OpenAPI Doc 0.1.0 https://fabra-io.github.io/docs/openapi.yaml
+- Speakeasy CLI 1.19.3 https://github.com/speakeasy-api/speakeasy
+
+## 2023-04-06 01:26:14
+### Changes
+Based on:
+- OpenAPI Doc 0.1.0 https://fabra-io.github.io/docs/openapi.yaml
+- Speakeasy CLI 1.19.6 https://github.com/speakeasy-api/speakeasy
+
+## 2023-04-12 01:34:27
+### Changes
+Based on:
+- OpenAPI Doc 0.1.0 https://fabra-io.github.io/docs/openapi.yaml
+- Speakeasy CLI 1.19.7 https://github.com/speakeasy-api/speakeasy
+
+## 2023-04-14 01:30:28
+### Changes
+Based on:
+- OpenAPI Doc 0.1.0 https://fabra-io.github.io/docs/openapi.yaml
+- Speakeasy CLI 1.20.0 https://github.com/speakeasy-api/speakeasy
+
+## 2023-04-18 01:33:16
+### Changes
+Based on:
+- OpenAPI Doc 0.1.0 https://fabra-io.github.io/docs/openapi.yaml
+- Speakeasy CLI 1.20.1 https://github.com/speakeasy-api/speakeasy
+
+## 2023-04-19 01:36:33
+### Changes
+Based on:
+- OpenAPI Doc 0.1.0 https://fabra-io.github.io/docs/openapi.yaml
+- Speakeasy CLI 1.20.2 https://github.com/speakeasy-api/speakeasy
+
+## 2023-04-20 01:26:24
+### Changes
+Based on:
+- OpenAPI Doc 0.1.0 https://fabra-io.github.io/docs/openapi.yaml
+- Speakeasy CLI 1.21.3 https://github.com/speakeasy-api/speakeasy
+
+## 2023-04-21 01:33:26
+### Changes
+Based on:
+- OpenAPI Doc 0.1.0 https://fabra-io.github.io/docs/openapi.yaml
+- Speakeasy CLI 1.21.4 https://github.com/speakeasy-api/speakeasy
+
+## 2023-04-22 01:34:03
+### Changes
+Based on:
+- OpenAPI Doc 0.1.0 https://fabra-io.github.io/docs/openapi.yaml
+- Speakeasy CLI 1.22.1 https://github.com/speakeasy-api/speakeasy
+
+## 2023-04-25 01:36:05
+### Changes
+Based on:
+- OpenAPI Doc 0.1.0 https://fabra-io.github.io/docs/openapi.yaml
+- Speakeasy CLI 1.22.2 https://github.com/speakeasy-api/speakeasy
+
+## 2023-04-26 01:34:21
+### Changes
+Based on:
+- OpenAPI Doc 0.1.0 https://fabra-io.github.io/docs/openapi.yaml
+- Speakeasy CLI 1.23.1 https://github.com/speakeasy-api/speakeasy
+
+## 2023-04-27 01:36:24
+### Changes
+Based on:
+- OpenAPI Doc 0.1.0 https://fabra-io.github.io/docs/openapi.yaml
+- Speakeasy CLI 1.25.1 https://github.com/speakeasy-api/speakeasy
+
+## 2023-04-28 01:37:10
+### Changes
+Based on:
+- OpenAPI Doc 0.1.0 https://fabra-io.github.io/docs/openapi.yaml
+- Speakeasy CLI 1.26.2 https://github.com/speakeasy-api/speakeasy
+
+## 2023-04-29 01:34:40
+### Changes
+Based on:
+- OpenAPI Doc 0.1.0 https://fabra-io.github.io/docs/openapi.yaml
+- Speakeasy CLI 1.26.4 https://github.com/speakeasy-api/speakeasy
+
+## 2023-05-02 01:35:27
+### Changes
+Based on:
+- OpenAPI Doc 0.1.0 https://fabra-io.github.io/docs/openapi.yaml
+- Speakeasy CLI 1.26.5 https://github.com/speakeasy-api/speakeasy
+
+## 2023-05-03 01:35:04
+### Changes
+Based on:
+- OpenAPI Doc 0.1.0 https://fabra-io.github.io/docs/openapi.yaml
+- Speakeasy CLI 1.27.0 https://github.com/speakeasy-api/speakeasy
+
+## 2023-05-05 01:23:42
+### Changes
+Based on:
+- OpenAPI Doc 0.1.0 https://fabra-io.github.io/docs/openapi.yaml
+- Speakeasy CLI 1.29.0 https://github.com/speakeasy-api/speakeasy
+
+## 2023-05-06 01:24:04
+### Changes
+Based on:
+- OpenAPI Doc 0.1.0 https://fabra-io.github.io/docs/openapi.yaml
+- Speakeasy CLI 1.29.1 https://github.com/speakeasy-api/speakeasy
+
+## 2023-05-10 01:30:43
+### Changes
+Based on:
+- OpenAPI Doc 0.1.0 https://fabra-io.github.io/docs/openapi.yaml
+- Speakeasy CLI 1.29.2 https://github.com/speakeasy-api/speakeasy
